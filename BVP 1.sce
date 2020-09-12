@@ -24,7 +24,7 @@ ya=0
 yb=40
 
 //2.DISCRETIZE SPACE
-N= input("enter number of values")
+N= input("enter number of points")
 h=(b-a)/(N-1)              //step-size
 
 //a.initialize  
