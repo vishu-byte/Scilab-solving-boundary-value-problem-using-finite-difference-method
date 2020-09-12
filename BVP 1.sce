@@ -14,7 +14,7 @@ clear
 //a.ode
 function [p,q,r]=ode(x)
     p=1
-    q=0                      //Defining the coeffecients of 
+    q=0                      //Defining the coeffecients of ode
     r=30*(x*x*x*x) - 20*(x*x*x) + 12*(x*x) -4*x
 endfunction
 //b. boundary conditions
